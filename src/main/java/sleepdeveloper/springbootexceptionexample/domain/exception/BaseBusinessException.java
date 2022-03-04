@@ -1,4 +1,4 @@
-package sleepdeveloper.springbootexceptionexample.common.exception;
+package sleepdeveloper.springbootexceptionexample.domain.exception;
 
 public class BaseBusinessException extends RuntimeException{
 

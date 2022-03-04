@@ -1,13 +1,11 @@
-package sleepdeveloper.springbootexceptionexample.common.exception;
+package sleepdeveloper.springbootexceptionexample.domain.exception;
 
 public enum ErrorCode {
 
     // Example Exception, you can add more exception what you want
     COMMON_NOT_FOUND(404, "C001", "Not Found Exception"),
     COMMON_INVALID_VALUE(400, "C002", "Not Found Exception"),
-
-    // User Exception
-    USER_NOT_FOUND(400, "U001", "User Not Found")
+    COMMON_VALIDATION_FAIL(400, "C003", "Validation Fail")
 
     ;
 
