@@ -2,14 +2,14 @@ package sleepdeveloper.springbootexceptionexample.web.dto;
 
 import sleepdeveloper.springbootexceptionexample.domain.exception.ErrorCode;
 
-public class ExceptionResponse {
+public class ExceptionCodeResponse {
 
     private int status;
     private String statusCode;
     private String message;
 
 
-    public ExceptionResponse(ErrorCode errorCode) {
+    public ExceptionCodeResponse(ErrorCode errorCode) {
         this.status = errorCode.getStatus();
         this.statusCode = errorCode.getStatusCode();
         this.message = errorCode.getMessage();
