@@ -3,8 +3,6 @@ package sleepdeveloper.springbootexceptionexample.domain.service;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import java.util.Arrays;
-
 @Component
 public class ErrorMessageSender {
 
